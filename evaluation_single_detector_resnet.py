@@ -33,7 +33,7 @@ def parse_arguments():
                         help='Comma-separated paths to datasets with labels before each path separated by a colon')
     parser.add_argument('--results_path', default='./results', type=str, help='Directory to save logs and outputs')
     parser.add_argument('--results_name', default='evaluation', type=str, help='Base name for saving outputs')
-    parser.add_argument('--batch_size', default=64, type=int, help='Batch size for data loading')
+    parser.add_argument('--batch_size', default=16, type=int, help='Batch size for data loading')
     parser.add_argument('--pretrained_weights', type=str, default ='./pretrained_weights/resnet_vanilla.pth', help='Path to the trained model weights')
     parser.add_argument('--plot', default=True, type=bool, help='Whether to save combined ROC plots')
     parser.add_argument('--cuda_device', default=0, type=int, help='CUDA device index')
