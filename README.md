@@ -19,8 +19,8 @@ This repository is dedicated to the development and benchmarking of various deep
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/your-github-repository/face-morphing-detection-benchmark.git
-cd face-morphing-detection-benchmark
+git clone https://github.com/your-github-repository/face-morphing-attack-detection-benchmark.git
+cd face-morphing-attack-detection-benchmark
 ```
 
 Install the required Python packages:
