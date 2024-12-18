@@ -1,7 +1,16 @@
 # Face Morphing Detection Benchmark
 
+
+
 ## Project Overview
 This repository is dedicated to the development and benchmarking of various deep learning models for detecting face morphing attacks. Models include ResNet, EfficientNet, Vision Transformer, and their ensemble versions. They are tested on datasets such as TWIN, FERET, FRGC, and FRLL under different morphing attack types including OpenCV, FaceMorpher, and StyleGAN. This project also includes the weights of trained models for evaluation purposes.
+
+<p align="center">
+<img src="docs/process.jpg" width="900px"/>
+<br>
+Facial Recognition at the Frontline: Detecting Face Morphing Attacks at Passport Control 
+</p>
+
 
 ## Installation
 
